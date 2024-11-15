@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.todo-container{
+    background-color: #cfcfcf;
+    padding: 5 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.todo-container h1{
+    text-align: center;
+}
+
+
+.todo-input{
+    width: 70%;
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+.add-btn{
+    padding: 10px;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+
+.task-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px , 0;
+    border-radius: 4px;
+    box-shadow: 0,0,5px rgba(0,0,0,0.1);
+}
+
+
+.task-card input[type="checkbox"]{
+    margin-right: 10px;
+}
+
+
+
+.task-card.completed span {
+    text-decoration: line-through;
+}
+.edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
